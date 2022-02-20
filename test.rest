@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "title": "This is a product title 2"
+}
+
+###
+
+GET http://localhost:3000/api/products
+
+###
+
+GET http://localhost:3000/healthcheck
